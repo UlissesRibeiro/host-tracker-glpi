@@ -1,5 +1,18 @@
 #!/bin/bash
 
+################################################################################
+# Script Name: HostTracker.sh
+# Description: Script para automatizar a adição de hosts SNMP e ESXi ao GLPI Inventory.
+# Version: 0.1
+# Author: Ulisses 'Stark' Gomes Ribeiro
+#
+# Não consegui de forma nativa fazer essa coleta, então optei por criar o scritp
+# Capaz de adicionar os hosts de forma manual.
+#
+# Este script é distribuído sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
+#
+################################################################################
+
 #agents : https://github.com/glpi-project/glpi-agent/releases
 #docker : https://hub.docker.com/r/diouxx/glpi/tags
 #
