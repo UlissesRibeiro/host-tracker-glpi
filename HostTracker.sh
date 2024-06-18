@@ -21,7 +21,7 @@
 #- glpi-netinventory
 #- glpe-exs(para ESX/ESXi)
 
-ROOT_DIR="/vox/hosttracker"
+ROOT_DIR="/hosttracker"
 
 if [ "$EUID" -ne 0 ]; then
     echo "Este script precisa ser executado como root."
