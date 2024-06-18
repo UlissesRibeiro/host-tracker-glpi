@@ -49,7 +49,6 @@ echo "Desenvolvido por : Ulisses (Stark) Ribeiro"
 echo ""
 echo "############################################################################################"
 sleep 5
-#Vox@communityRW
 
 while true; do
     choice=$(dialog --title "HostTracker" --radiolist "Escolha uma opção" 15 50 15 \
