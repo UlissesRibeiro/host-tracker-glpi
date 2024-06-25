@@ -30,11 +30,11 @@ fi
 
 agent="/usr/bin/dialog"
 
-            if [ -e "$agent" ]; then
-                    echo "Instalado"
-            else
-                apt install dialog -y
-            fi
+if [ -e "$agent" ]; then
+        echo "Instalado"
+else
+    apt install dialog -y
+fi
 
 echo "############################################################################################"
 echo " _    _   ____    _____  _______   _______  _____              _____  _  __ ______  _____"
