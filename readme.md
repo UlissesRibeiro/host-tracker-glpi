@@ -42,7 +42,7 @@ https://github.com/glpi-project/glpi-agent/releases/download/1.9/glpi-agent-1.9-
 https://github.com/glpi-project/glpi-agent/releases/download/1.9/GLPI-Agent-1.9-x64.msi
 - Abre o executavel do instalador, Next,Next,Next.
 - Na tela de "Choose Setup Type", escolha "Custom", depois Next.
-- Na tela de "Choose Targets", passe a url do server GLPI : http://10.0.10.224:803 , DESMARQUE a checkbox "Quick Installation" e Next.
+- Na tela de "Choose Targets", passe a url do server GLPI : http://10.0.10.224:8030 , DESMARQUE a checkbox "Quick Installation" e Next.
 - Next e Next, até chegar na tela "Choose an Executinon Mode", e selecione "As a Widnows Service" e também "Run inventory inmmediatly after installation", Next Next.
 - Na tela "Miscelaneous Options", você pode adicionar o patrimonio no campo "Tag", caso não esteja legivel, deixe em branco e Next.
 - Next,Next, e finalmente "Install", e ao terminar clique em "Finish".
